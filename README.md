@@ -1,8 +1,3 @@
-Here’s a polished **README.md** for your MNIST Handwritten Digit Recognizer project. It’s clear, beginner-friendly, and professional while keeping it simple.
-
----
-
-````markdown
 # 🖊️ MNIST Handwritten Digit Recognizer
 
 A simple and interactive **Streamlit web app** that recognizes handwritten digits (0–9) using a trained deep learning model on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
@@ -19,14 +14,13 @@ Example workflow:
 2. The model predicts the digit  
 3. Confidence distribution is shown as a bar chart  
 
-*(Add a GIF or screenshot here if you want to show it off!)*
 
 ## 📦 Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/mnist-digit-recognizer.git
    cd mnist-digit-recognizer
-````
+   ````
 
 2. Install dependencies:
 
@@ -95,9 +89,4 @@ This project is licensed under the MIT License.
 
 💡 Made with ❤️ using Streamlit and TensorFlow
 
-```
-
----
-
-Would you like me to also create a **`requirements.txt`** for you so anyone can run the app instantly without worrying about dependencies?
 ```
