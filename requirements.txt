@@ -1,4 +1,9 @@
-﻿streamlit==1.31.0
+--prefer-binary
+numpy
+tensorflow
+pandas
+scikit-learn
+streamlit==1.31.0
 tensorflow>=2.15.0
 
 Pillow==10.0.0
@@ -9,3 +14,4 @@ numpy>=1.24.0
 pandas>=2.0.0
 scikit-learn>=1.3.0
 matplotlib>=3.7.0
+
