@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mnist-digit-recognizer
+    env: python
+    runtime: python-3.11.0
+    buildCommand: |
+      apt-get update && 
+      apt-get install -y build-essential && 
+      pip install --upgrade pip setuptools wheel && 
+      pip install -r requirements.txt --prefer-binary --no-cache-dir
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
